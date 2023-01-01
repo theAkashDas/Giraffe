@@ -15,7 +15,7 @@ namespace Giraffe
         static void Main(string[] args)
         {
             //Declaring arrays
-            int[] arr1 = { 1, 2, 3, 4, 5, 6 };
+            int[] arr1 = { 1, 2, 3, 4, 5, 6, 7 };
             string[] friends = new string[2];
             //Declaring the variables
             string name = "Akash" + " Das";
