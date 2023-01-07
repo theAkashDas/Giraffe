@@ -22,7 +22,10 @@ namespace Giraffe
                 bk.title = "Theory";
                 bk.author = "Hey";
                 bk.pages = 225;
-
+                Student s1 = new Student("a", "b", 2.8);
+                Student s2 = new Student("k", "b", 3.8);
+                Console.WriteLine(s1.hasPassed());
+                Console.WriteLine(s2.hasPassed());
                 //Declaring arrays
                 int[] arr1 = { 1, 2, 3, 4, 5, 6, 7 };
                 //Declaring a 2D array
